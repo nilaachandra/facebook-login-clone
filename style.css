@@ -30,6 +30,7 @@ body{
     flex-direction: column;
     gap: 10px;
     border-radius: 8px;
+    border: 0.1px solid rgba(0, 0, 0, 0.24);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .login-form p{
@@ -121,6 +122,7 @@ section{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 500px;
     height: 276px;
+    border: 0.1px solid rgba(0, 0, 0, 0.24);
 }
 .forgot-form h1{
     height: 60;
@@ -148,14 +150,14 @@ section{
     background-color: #f0f2f5;
 }
 .btn-container{
-    width: 502px;
+    width: 500px;
     height: 72px;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
     margin: 2px -4px -11px 0px;
     border: 0.1px solid rgba(0, 0, 0, 0.24);
-    border-radius: 0 0 7px;
+    border-radius: 0 0 7px 7px;
 }
 
 .btn-container button {
