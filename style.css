@@ -107,7 +107,7 @@ nav{
     margin: 0 0 2px 4px;
     padding: 6px 4px;
 }
-section{
+.forgot{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -176,4 +176,80 @@ section{
 .btn-container :nth-child(2){
     background-color: #1877F2;
     color: white;
+}
+
+/* signup form */
+.signup-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.title-holder{
+    width: 432px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 0.1px solid rgba(0, 0, 0, 0.24);
+    padding: 10px 16px;
+}
+.signup{
+    width: 432px;
+    height: 454px;
+    padding: 16px;
+    border: 0.1px solid rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-direction: column;
+}
+.signup .ip{
+    height: 40px;
+    width: 396px;
+    margin: 8px 0 0 0;
+    padding: 11px;
+}
+.name-holder{
+    display: inline-block;
+    height: 49px;
+    width: 400px;
+    margin: -2px 0 -6px 0;
+}
+.name-holder input{
+    height: 40px;
+    width: 194px;
+    padding: 11px 11px 11px 11px;
+    margin: 0 4px 0 0;
+}
+
+.db,.gd{
+    font-size: 12px;
+    margin: 14px 0 0;
+}
+select{
+    height: 36px;
+    width: 125px;
+    padding: 0 20px 0 8px;
+}
+.two, .three{
+    margin: 0 0 0 8px;
+}
+.one{
+    padding: 0 20px 0 8px; 
+}
+.genderbox{
+    width: 411px;
+    height: 50px;
+    margin: 5px 0px -7px;
+    display: flex;
+}
+.radiobox {
+    height: 36px;
+    width: 125px;
+    border: 0.1px solid rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: space-between;
+}
+.radiobox label{
+    padding: 7px 0 0 9px;
 }
